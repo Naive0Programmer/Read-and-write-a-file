@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char*argv[]){
-    //usage: marks [file in] [file out]
+    //usage: ./a.out [file in] [file out]
 
     FILE * f_read = fopen(argv[1], "r");//r read, w write, a append
     FILE * f_write = fopen(argv[2], "w");
